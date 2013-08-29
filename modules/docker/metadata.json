@@ -1,0 +1,44 @@
+{
+  "name": "garethr-docker",
+  "version": "0.4.1",
+  "source": "git://github.com/garethr/garethr-docker.git",
+  "author": "Gareth Rushgrove",
+  "license": "Apache License, Version 2.0",
+  "summary": "Module for installing docker from official ppa",
+  "description": "Install the official docker packages",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": ">= 1.1.0"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">=4.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "c8b84c8182d85973cc0d18fe2040f21f",
+    "Gemfile.lock": "f6d3b2966e66cafca03dfc4e3301df14",
+    "LICENSE": "e7fff5d8ca4f44f1279782ead2da5925",
+    "Modulefile": "821c2ffa4dc3e6af82156f2ed7901034",
+    "README.md": "2786475af6ad6ed3ac1794b966dafd92",
+    "Rakefile": "c6a91ef43608c5d4b22bc7e50a94d6a5",
+    "manifests/config.pp": "3346b40839ad32e9f908b3f2686391e1",
+    "manifests/image.pp": "3f55ef8590f7b325ba8030a05f3f82b9",
+    "manifests/init.pp": "d7c15699caf886e0aac6ade51682d480",
+    "manifests/install.pp": "932e1a10100936b27db9503dd699d25b",
+    "manifests/params.pp": "a6c338e283a1824c2e74ada32f6952f4",
+    "manifests/run.pp": "49abdabb0cf22d3ba581decd1b06b7ae",
+    "manifests/service.pp": "b812f137c6bfe5054042d0648a73ac9f",
+    "spec/classes/docker_spec.rb": "e3b75f0943aafb314410d2c76d0177f9",
+    "spec/defines/image_spec.rb": "46a478694904ccf207fc24448dbdc412",
+    "spec/defines/run_spec.rb": "ab5c803e88c085e166a61d3b2d7844a3",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "templates/etc/init/docker-run.conf.erb": "0ffa9c5b493f743e1237ff6056e23d8a",
+    "tests/base.pp": "abf2f440073ac921587b1649794eb542"
+  }
+}
